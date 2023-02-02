@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardPreventCornerOverlap="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/main"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nameSubjectItemTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/background"/>
+
+    <TextView
+        android:id="@+id/daySubjectItemTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/background"/>
+
+    <TextView
+        android:id="@+id/hoursSubjectItemTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hours"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/background"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

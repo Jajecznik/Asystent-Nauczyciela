@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Asystent</string>
+    <string name="checked">Zaznaczone</string>
+
+    <string name="dodaj_zajecia">DODAJ\nZAJĘCIA</string>
+    <string name="dodaj_studenta">DODAJ\nSTUDENTA</string>
+    <string name="wystaw_ocene">WYSTAW\nOCENĘ</string>
+    <string name="lista_studentow">LISTA\nSTUDENTÓW</string>
+    <string name="zresetuj_aplikacje">ZRESETUJ\nAPLIKACJĘ</string>
+
+    <string name="nowe_zajecia_tytul">Dodaj nowe zajęcia</string>
+    <string name="nowe_zajecia_nazwa">Nazwa przedmiotu</string>
+    <string name="nowe_zajecia_dzien">Dzień tygodnia</string>
+    <string name="nowe_zajecia_godzina">Wybierz godziny trwania zajęć</string>
+    <string name="nowe_zajecia_start">ROZPOCZĘCIE</string>
+    <string name="nowe_zajecia_koniec">ZAKOŃCZENIE</string>
+    <string name="nowe_zajecia_potwierdz">DODAJ ZAJĘCIA</string>
+
+    <string name="nowy_student_tytul">Dodaj nowego studenta</string>
+    <string name="nowy_student_imie">Imię</string>
+    <string name="nowy_student_nazwisko">Nazwisko</string>
+    <string name="nowy_student_nr_albumu">Nr. albumu</string>
+    <string name="nowy_student_dalej">WYBIERZ PRZEDMIOTY</string>
+    <string name="nowy_student_przedmioty">PRZEDMIOTY</string>
+    <string name="nowy_student_potwierdz">DODAJ STUDENTA</string>
+
+    <string name="ocena_tytul">Dodaj nową ocenę</string>
+    <string name="ocena_za_co">Nazwa (za co)</string>
+    <string name="ocena_wartosc_liczba">Wybierz ocenę</string>
+    <string name="ocena_wartosc_procent">Ilość punktów</string>
+    <string name="ocena_dodaj">DODAJ OCENĘ</string>
+
+    <string name="brak_grup">BRAK GRUP ZAJĘCIOWYCH</string>
+    <string name="brak_studentow">BRAK STUDENTÓW</string>
+    <string name="brak_ocen">BRAK OCEN</string>
+</resources>

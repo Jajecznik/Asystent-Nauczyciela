@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".NewSubject">
+
+    <LinearLayout
+        android:id="@+id/newSubjectLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/newSubjectTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nowe_zajecia_tytul"
+            android:textColor="@color/main"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/newSubjectNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nowe_zajecia_nazwa"
+            android:textColor="@color/main"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/newSubjectNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/background"
+            android:background="@color/main"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/newSubjectDayTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nowe_zajecia_dzien"
+            android:textColor="@color/main"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Spinner
+            android:id="@+id/newSubjectDaySp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@color/main"
+            android:popupBackground="@color/main" />
+
+        <TextView
+            android:id="@+id/newSubjectStartTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nowe_zajecia_godzina"
+            android:textColor="@color/main"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/newSubjectStartBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/nowe_zajecia_start"
+                android:textColor="@color/background"
+                android:backgroundTint="@color/main"/>
+
+            <Button
+                android:id="@+id/newSubjectEndBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/nowe_zajecia_koniec"
+                android:textColor="@color/background"
+                android:backgroundTint="@color/main"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/newSubjectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/main"
+        android:text="@string/nowe_zajecia_potwierdz"
+        android:textColor="@color/background"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_margin="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
